@@ -8,7 +8,7 @@ $Recall = \frac{TP}{TP+FN}$
 
 In object detection, they care more about the precision rate. Therefore, the different here is how we assign which one is $True$ $Positive$ or $False$ $Positive$.
 
-* ##### Note: The previous word present for the actual, and later for predicted (True Negative means Positive class in actual, and model predict it is negative).
+##### Note: The previous word present for the actual, and later for predicted (True Negative means Positive class in actual, and model predict it is negative).
 
 First, we need to know about Intersection over Union (IoU), it's quite easy to understand if we look at the picture
 
@@ -42,4 +42,4 @@ $\rightarrow$ The $Mean$ $Average$ $Precision$ means the average of those $AP$ p
 * $AP$ is the $Mean$ $Average$ $Precision$ in short term which is the mean from various of IoU Threshold value.
 * $AP^{50}$ is the average $Precision$ value of different classes with threshold $75\%$
 * $AP^{75}$ is the same with $AP^{50}$ but with threshold $50\%$ 
- 
+
