@@ -23,6 +23,15 @@ As we can see, with BatchNorm:
 * By normalize the value of feature maps after each CNNs layers, its variance will be more stable $\rightarrow$ the gradient value will be more fluency.
 * By normalize each layer, we set it back to the distribution as input (normaly whited) $\rightarrow$ avoid vanishing gradient
 
+
+## Fun fact
+
+Batchnorm was published in 2015, after that we have GoogleNet and VGG were two state-of-the-art model in ImageNet ranking, because of the vanishing/exploring problem, they all had a trick to train a deep model.
+
+For GoogleNet, the reason they stack those CNN together to increase the value of gradient in backpropagation
+
+For VGG, they train a shallow model first (8 layers) to get the high performance then add more layers and keep training, this method also was implemented by YOLO's author as a very interesting way.    
+
 **Reference**
 * [Original Batchnorm paper](https://arxiv.org/abs/1502.03167)
 * [A explaination why Batchnorm work](https://arxiv.org/abs/1805.11604)
