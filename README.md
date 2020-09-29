@@ -15,3 +15,4 @@ This repo contains some of my knowleadge in Deep Learning field.
 * [Mini Batch Standard Deviation](./ProGans/MinibatchStandardDeviation.md)
 * [Pixel Normalization](./ProGans/PixelNorm.md)
 * [Overall](./ProGans/main.md)
+
