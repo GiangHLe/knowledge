@@ -13,5 +13,6 @@ Progressive GANs introduces a new method to training GANs, and other algorithms 
 
    * [Equalized Learning Rate](equalizedLR.md)
    * [Pixelwise feature vetor Normalization](PixelNorm.md) in **Generator**  
-   
+4. New training method
+   Actually, it is not so new, the VGG (in Batchnorm funfact part) already did it in past to avoid the vanishing gradient.   
 
