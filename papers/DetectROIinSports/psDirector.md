@@ -151,3 +151,6 @@ $\begin{cases}
     \displaystyle\max_y = \displaystyle\sum_{j=y}^{y+boxH}\displaystyle\sum_{i=0}^{w}(i_w+j_h)sgn(I(i,j))\\
     \displaystyle\max_x = \displaystyle\sum_{i=x}^{x+boxW}\displaystyle\sum_{j=y}^{y+boxH}(i_w+j_h)sgn(I(i,j))
 \end{cases}$
+
+**Reference**
+* [psDirector paper](https://link.springer.com/chapter/10.1007/978-3-030-05716-9_18)
