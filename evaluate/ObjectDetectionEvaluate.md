@@ -12,7 +12,7 @@ In object detection, they care more about the precision rate. Therefore, the dif
 
 First, we need to know about Intersection over Union (IoU), it's quite easy to understand if we look at the picture
 
-![image](.\\..\\image\\ObjectDetectionEvaluate1.png)
+![image](.\\image\\ObjectDetectionEvaluate1.png)
 
 **True Positive:** 
 * IoU > IoU_Threshold
