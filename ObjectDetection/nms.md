@@ -23,6 +23,9 @@ Assume that after the rejection step above, we have $N$ boxes left, then define 
 
 As we can see, all of this NMS algorithm depend on how to chose threshold $T$, so there will be the probability that two object stand side by side but the box with high confidence of object one or object two is removed.
 
+**Note**
+NMS is only implemented in the testing phase.
+
 **Reference**
 * [Medium articles](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c).
 * [Andrew Ng CNN course](https://www.coursera.org/lecture/convolutional-neural-networks/non-max-suppression-dvrjH).
