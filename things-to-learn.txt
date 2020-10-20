@@ -1,0 +1,14 @@
+Attention 
+Transformer
+Faster RCNN
+YOLOv4
+Auto-encoder replace GANs?
+RetinaNet
+GoogleNet
+Pyramid
+DenseNet
+Makarov classification
+Bayes classification
+EfficientNet
+EfficientDet
+Segmentation
