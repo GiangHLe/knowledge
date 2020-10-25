@@ -65,7 +65,7 @@ Set k = 3 then it will be the original Monty Hall problem.
 
 **Reference**
 * [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall#Monty_Hall_problem)
-* [Journal Scientific American](https://en.wikipedia.org/wiki/Scientific_American)
+* [Scientific American magazine](https://en.wikipedia.org/wiki/Scientific_American)
 * [Explain mathematics 1](https://math.stackexchange.com/questions/2427446/monty-hall-multiple-prizes)
 * [Explain mathematics 2](https://math.stackexchange.com/questions/608957/monty-hall-problem-extended)
 * [Magnus Carlsen](https://en.wikipedia.org/wiki/World_Chess_Championship#:~:text=The%20current%20world%20champion%20is,which%20was%20won%20by%20Steinitz.)
