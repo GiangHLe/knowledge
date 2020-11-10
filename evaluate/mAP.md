@@ -25,9 +25,10 @@ First, we need to know about Intersection over Union (IoU), it's quite easy to u
 * The model predict the correct label
 
 **False Negative:**
-* IoU > IoU_Threshold
-* Confidence_score > confidence_Threshold
 * The model predict the wrong label 
+* Model predict nothing while it should have a box right there
+
+**Note:** Remember in Recall, the bottom is TP+FN which means all the bbox in ground truth.
 
 With those definations above, we can calculate the precision of each class with the stable IoU.
 

@@ -118,7 +118,7 @@ Where $q\in [x,y]$, and $H=$```range(k,k+r*t,5)``` (stepsize = 5 in part motion 
 
 The real ROI for viewer will be realease follow this formula:
 
-$\LARGE R_{k+i}=\frac{(r\times t - i)\times R_K+i\times R_{k+r\times t}}{r \times t}$
+$\LARGE R_{k+i}=\frac{(r\times t - i)\times R_k+i\times R_{k+r\times t}}{r \times t}$
 
 With this formula, the first frame will be $R_k$ and last frame is $R_{k+r\times t}$, during $t$ seconds, the ROI will slowly move and scale the size from $R_k$ to $R_{k+r\times t}$.
 
