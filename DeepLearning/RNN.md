@@ -4,7 +4,7 @@ Normally, a model will have one input and output. However, there are some tasks 
 
 The Recurrent Neural Networks (RNNs) is usually used in the Natural Language Processing (NLP) problem, but we will only focus on computer vision problem, so this article will only contain the image based example.
 
-![drawing](.\\..\\image\\RNN1.png)
+![drawing](.\\image\\RNN1.png)
 
 The image show that instead of using the last layer to create the probability such as sigmoid or softmax, we change it to RNN block, and set the vector from FC as input.
 
