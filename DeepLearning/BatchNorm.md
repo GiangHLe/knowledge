@@ -15,7 +15,7 @@ $x^{(t)},y^{(t)}$ is the input-label pairs used to train the network at time $t$
 $G_{t,i}$ is the gradient of the model before optimized
 $G_{t,i}^{'}$ is the gradient of model after optimized to layer $i$
 
-![image](.\\..\\image\\BatchNorm1.png)
+![image](.\\image\\BatchNorm1.png)
 
 As we can see, with BatchNorm:
 * the loss and the gradient value are much more stable, more smooth.  
