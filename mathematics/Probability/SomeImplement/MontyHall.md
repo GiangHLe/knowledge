@@ -16,7 +16,13 @@ The inventor of this problem named **Steve Selvin**, a statistician, he publish 
 
 Anyway, let go to the main point, what is this problem about?
 
-<center><img src="./../image/MontyHall1.png" alt="yolo" width="400"/><figcaption>Fig 1. Monty Hall problem</figcaption></center>
+<center>
+<img src="./image/MontyHall1.png" alt="yolo" width="500">
+<figcaption>
+Fig 1. Monty Hall problem
+</figcaption>
+</center>
+
 
 Look at the picture, image that you are in the game show, there are three door, behind those door are 2 goats and 1 car. Now, just choose a random door, then Monty will open one of the others two door and it will be the goat (let's assume that Monty know which door has the prize, and if the prize with you is the goat, just feel free to replace all the word "car" to goat and "goat" to "car" in this note). Then he will ask you "Be carefull, player. You wanna stay with your door number or go to the other door?", stop, and the problem here, swap or not?
 
