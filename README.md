@@ -9,6 +9,7 @@ All articles depend on my knowledge. Therefore, if there is no note in the begin
 * [Normalized Input](./DeepLearning/normalizedInput.md)
 * [Weights / parameters initilization](./DeepLearning/weightInit.md)
 * [Recurrent Neural Networks](./DeepLearning/RNN.md)
+* [Accumulation gradient](./DeepLearning/accumulation_gradient.md)
 
 ***Evaluation methods***
 * [Object Detection](./evaluate/mAP.md)
