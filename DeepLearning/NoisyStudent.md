@@ -32,7 +32,7 @@ Figure 2 show the training process of Noisy Student method. I will take the exam
 We will go
 
 
-did they use the same unlabeled data in iter training?
+did they use the same unlabeled data in iter training? Training from scratch (initilize all parameters), the performance will be better, prove in study #8
 did they init the weight or use it from previous work?
 did the first train have noise?
 
