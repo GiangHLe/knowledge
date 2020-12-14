@@ -1,6 +1,8 @@
 # My notes 
 
-This repo contains some of my knowleadge in Deep Learning field.
+This repo contains some of my knowleadge in Deep Learning field. 
+
+All articles depend on my knowledge. Therefore, if there is no note in the beginning, please understand that I will assume that problem belongs to computer vision only, and the solution for the problem also only tries on image data.
 
 ***Deep learning***
 * [Batch Normalization](./DeepLearning/BatchNorm.md)
