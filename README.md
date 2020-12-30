@@ -32,3 +32,6 @@ All articles depend on my knowledge. Therefore, if there is no note in the begin
 
 ***Mathematics***
 * [Monty Hall problem](./mathematics/Probability/SomeImplement/MontyHall.md)
+* [Likelihood](./mathematics/Probability/Likelihood.md)
+* [Maximum Likelihood Estimation](./mathematics/Probability/MLE.md)
+* [Maximum A Posteriori](./mathematics/Probability/MAP.md)
