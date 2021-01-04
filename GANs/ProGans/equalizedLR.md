@@ -26,7 +26,20 @@ def forward(self, x, equalized):
 ```
 <!-- The modern initilization such as He or Xavior will makes some parameters need longer time to be convergence. Because of the different from its position to global minima, we will need different learning rate in different layers to get the global minima for all layers.  -->
 
-With this method, the distance from $W_i$ with $i= 1,2,3,...,n$ and n is number of layers to its convergence value will be the same, so we just need to find a suitable learning rate to adapt all.
+<center>
+<img src="./../image/equalizedLR1.png" alt="Linear" width="300">
+<figcaption>
+Fig 1. Fully connected layer
+</figcaption>
+</center>
+
+\
+Let take the Linear (Dense/ FC) layer in Fig 1 as example, assume that all input ($a_i^{l-1}$ in this case) is normalized in range $[0,1]$, keep assuming that all $w_{ji}^{(l)}$ is initilized by normal distribution with zero mean and unit variance ~$N(0,1)$. We have:
+
+$$ \sum^M_{i=1}W^TX \backsim N(0,M)$$
+where $M$ is the number of node of previous layer, as we can see, the variance of each output from later nodes will be shift by $M$ which called covariance shift problem. This will lead to the unstable learning speed, and harmful for the model.
+
+With method scale weights with He's constant each time forward, we can guarantee that each next node will have normal distribution with zero mean and unit variance.
 
 
 

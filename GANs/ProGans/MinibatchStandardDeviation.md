@@ -21,8 +21,18 @@ Output: $N \times 1 \times H \times W$
 Concate the new feature map to the original feature map
 Output: $N \times (C+1) \times H \times W$
 
-This step help the generator model return the more variation results. As we maybe know, in traditional GANs, the result from generator has tend to create the similar image even the different input, it's called **mode collapse** problem. By divide to mini-batch, the author hope that this will make the generator richer and learn more from data.
+This step help the generator model return the more variation results. As we maybe know, in traditional GANs, the result from generator has tend to create the similar image even the different input, it's called **mode collapse** problem. By divide to mini-batch, the author hope that this will make the discriminator return the different decision even with similar image.
 
 This layer can be placed anywhere in model but the author find out that it is the best right after the last down-scaling layer (in this case, $(8 \times 8) \rightarrow (4 \times 4)$)
+
+***Note:*** MiniBatch Std only use for Discriminator.
+
+<center>
+<img src="./../image/MinibatchSTD1.png" alt="Structure" width="300">
+<figcaption>
+Fig 1. Discriminator structure
+</figcaption>
+</center>
+
 
 [Back to the main page](main.md)

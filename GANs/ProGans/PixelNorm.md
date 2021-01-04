@@ -12,6 +12,6 @@ As formula, PixelNorm is a method that scale each vector at $(x,y)$ position wit
 
 This method was used instead of batchnorm, with GANs this help the signal magnitudes (value of feature maps) more stable by normalized all feature. The author confirmed that this method does not harm the generator's result a lots (try on most datasets) but it help to control the convergence very effectively.
 
-**Noted**: This layer only appears in generative models, in the very last of the model, and because it's non learnable layer so the number of learnable parameters still be the same.
+**Noted**: This layer only appears in generative models, and because it's non learnable layer so the number of learnable parameters still be the same.
 
 [Back to the main page](main.md)
