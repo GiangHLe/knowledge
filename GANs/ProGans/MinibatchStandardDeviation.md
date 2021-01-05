@@ -35,4 +35,4 @@ Fig 1. Discriminator structure
 </center>
 
 
-[Back to the main page](main.md)
+[Back to the main page](summary.md)

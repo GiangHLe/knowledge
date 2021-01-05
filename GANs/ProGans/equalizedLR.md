@@ -41,5 +41,5 @@ where $M$ is the number of node of previous layer, as we can see, the variance o
 
 With method scale weights with He's constant each time forward, we can guarantee that each next node will have normal distribution with zero mean and unit variance.
 
-
+[Back to the main page](summary.md)
 

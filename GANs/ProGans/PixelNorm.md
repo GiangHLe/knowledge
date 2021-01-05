@@ -14,4 +14,4 @@ This method was used instead of batchnorm, with GANs this help the signal magnit
 
 **Noted**: This layer only appears in generative models, and because it's non learnable layer so the number of learnable parameters still be the same.
 
-[Back to the main page](main.md)
+[Back to the main page](summary.md)
