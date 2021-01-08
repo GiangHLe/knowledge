@@ -79,7 +79,10 @@ $$ IS(G) = \exp{(\mathbb{E}_{x}D_{KL}(p(y,x)||p(y)))}$$
 Remember $x$ in this case is the image from Generator.
 
 ***Weakness:***
-* fds
+
+* Can not distinguish the variance in one class, for example, if Generator create 1000 images for each class in ImageNet labels set, it will have full score.
+* Do not care about dataset, just care about the distribution of fake images.
+* Return a very poor result if Generator paint something not in ImageNet (even its really beautiful). 
 
 
 
