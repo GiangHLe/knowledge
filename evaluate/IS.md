@@ -15,7 +15,7 @@ Inception Score was introduced to make this heavy task to automatic. The name In
 
 ### Process
 
-First, what we need from a generator model is the **Fidelity** and the **diversity**. 
+First, what we need from a generator model is the **Fidelity** and the **Diversity**. 
 
 <center>
 <img src="./image/IS2.png" alt="3 head Corgi" width="250">
