@@ -12,3 +12,9 @@ Progressive GANs introduces a new method to training GANs, and other algorithms 
 
    * [Equalized Learning Rate](equalizedLR.md)
    * [Pixelwise feature vetor Normalization](PixelNorm.md) in **Generator**  
+
+
+
+**Reference**
+* [ProGan paper](https://arxiv.org/abs/1710.10196)
+* [ProGan Pytorch implement](https://github.com/nashory/pggan-pytorch)
