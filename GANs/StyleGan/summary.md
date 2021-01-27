@@ -22,7 +22,7 @@ To evaluate the input of Generator, normally, they will need an encoder to trans
 * [Perceptual path length](./PerceptualPathLength.md)
 * [Linear separability](./LinearSeparability.md)
 
-However, StyleGan also has some problems in [StyleGan problems](problems.md)
+Besides that, StyleGan also has some problems in [StyleGan problems](problems.md)
 
 **Reference**
 * [Style GAN paper](https://arxiv.org/abs/1812.04948)
