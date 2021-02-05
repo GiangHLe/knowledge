@@ -2,7 +2,7 @@
 
 **"Likelihood"**: We maybe hear about this a lot, actually, everywhere, at least with me. In every book or every lectures that I learned, they mentioned and assumed that we already know what is it. 
 
-Well, it is hard to say, the Likelihood is conditional probability in some case. In statistic, with the let see the definition of likelihood first (or the formula):
+Well, it is hard to say, the Likelihood is conditional probability in some case. In statistic, let see the definition of likelihood first (or the formula):
 
 $$ \mathcal{L}(\theta \mid x_1,\dots,x_n) = \prod_{i=1}^n f_\theta(x_i) $$
 
@@ -18,7 +18,7 @@ $\Rightarrow$ The integral of $P(b\mid a)$ over all b posible outcome should be 
 
 In the other hand, $\theta$ is parameters of model $f$ so the integral of all $\theta$ do not necessarily equal 1.
 
-From here, I, myself have a conclusion, a conditional probability if a likelihood but the likelihood is not necessarily to be an probability.
+From here, I, myself have a conclusion, a conditional probability is a likelihood but the likelihood is not necessarily to be an probability.
 
 #### Machine Learning (ML)
 
