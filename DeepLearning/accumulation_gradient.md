@@ -72,6 +72,28 @@ lr /= real_batch # 64 in the example above
 optimizer = torch.optim.adam(model.parameters(), lr = lr)
 ```
 
+#### Note:
+
+I get the answer for the question above, even there is no mathematics proof, but the author reached the second rank in the huge competition on Kaggle so I think I can trust him, the correct code should be:
+
+```python
+real_batch = 64
+optim.zero_grad()
+for i,data in enumerate(DataLoader()):
+    x = data['image'].cuda()
+    y = data['label'].cuda()
+    output = model(x)
+    loss = criterion(output, y)
+    (loss/real_batch).backward() # here, it take the average
+    if i % real_batch == 0:
+        optimizer.step() # update after take gradient of 64 samples
+        optimizer.zero_grad()
+```
+
+**Another note**
+
+All the code snippets in this article use batch size equal 1 in the DataLoader.
+
 #### **References**
 * [Article on medium](https://towardsdatascience.com/what-is-gradient-accumulation-in-deep-learning-ec034122cfa#:~:text=Gradient%20accumulation%20means%20running%20a,to%20compute%20the%20variable%20updates.)
 * [Pytorch discussion](https://discuss.pytorch.org/t/why-do-we-need-to-set-the-gradients-manually-to-zero-in-pytorch/4903/81)
