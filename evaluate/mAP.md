@@ -1,3 +1,5 @@
+<!-- Wrong information, need to check with graph
+ -->
 # Average Precision
 
 In classification problem, we have precision and recall metrics to evaluate model performance, the same thing with object detection problem.
