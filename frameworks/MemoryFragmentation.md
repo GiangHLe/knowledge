@@ -1,21 +1,21 @@
 # Memory Fragmentation
 
-Okay, maybe it is a little ridiculous when create new article just for this definition, but:
-
-1. This is my note, I can do whatever I want.
-2. This is mention a lots in C++ or deep learning framework notebook (tensorflow, Pytorch) so it is worth to have a post for itself.
-3. Please go in details.
+Okay, maybe it is a little ridiculous when create new article just for this definition.
    
-It is the name of the phenomenon when you can store more data into your memory even the available space volume is enough for it.
+Memory Fragmentation is the name of the phenomenon when you cannot store more data into your memory even the available space volume is enough for it.
 
 Example 1:
 
     The easiest way to think about this is to imagine you have a big empty wall that you need to put pictures of varying sizes on.
+
     Each picture takes up a certain size and you obviously can't split it into smaller pieces to make it fit. 
+
     You need an empty spot on the wall, the size of the picture, or else you can't put it up. 
+
     Now, if you start hanging pictures on the wall and you're not careful about how you arrange them, you will soon end up with 
     a wall that's partially covered with pictures and even though you may have empty spots most new pictures won't fit because 
     they're larger than the available spots. You can still hang really small pictures, but most ones won't fit. 
+    
     So you'll have to re-arrange (compact) the ones already on the wall to make room for more..
 
 Example 2: more technical
